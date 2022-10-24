@@ -1,0 +1,492 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-appliction {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+.active {
+  flex: 100%;
+}
+
+.left-panel {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.left-panel h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  position: relative;
+  text-align: center;
+}
+
+.left-panel .active p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.right-panel {
+  background: #1334b3;
+  min-height: 100vh;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 13px 16px;
+  padding-left: 42px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0%;
+  right: 1.33%;
+  top: 28%;
+  bottom: 0%;
+  width: 50px;
+}
+
+.input-icon img {
+  padding-left: 16px;
+}
+
+.input-icon-1 {
+  position: absolute;
+  left: 0.5%;
+  right: 10.07%;
+  top: 20%;
+  bottom: 0%;
+  width: 50px;
+}
+
+.input-icon-1 img {
+  padding-left: 16px;
+}
+
+.login button {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #1334b3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 12px;
+  border: none;
+}
+
+form {
+  max-width: 567px;
+  margin: 0 auto;
+}
+
+.forgot-password {
+  text-align: center;
+}
+
+.forgot-password button {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #686687;
+  background: none;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0025em;
+  color: #233244;
+  background: none;
+  border: none;
+}
+
+.left-panel .active .rights p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #233244;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.rectangle-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 781px;
+  margin: 0 auto;
+}
+
+.rectangle-1 img {
+  max-width: 100%;
+}
+
+.solution h3 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.005em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.solution p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #f8f9fd;
+}
+
+@media (min-width: 1531px) and (max-width: 1600px) {
+  form {
+    max-width: 495px;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1530px) {
+  form {
+    max-width: 475px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .rectangle-1 {
+    max-width: 650px;
+  }
+
+  form {
+    max-width: 490px;
+  }
+
+  .solution h3 {
+    font-size: 26px;
+  }
+
+  .solution p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1370px) {
+  .left-panel h1 {
+    font-size: 30px;
+  }
+
+  .left-panel .active p {
+    font-size: 14px;
+  }
+
+  form {
+    max-width: 410px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 13px;
+  }
+
+  .rectangle-1 {
+    max-width: 585px;
+  }
+
+  .solution h3 {
+    font-size: 22px;
+  }
+
+  .solution p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1150px) {
+  form {
+    max-width: 360px;
+  }
+
+  .rectangle-1 {
+    max-width: 485px;
+  }
+
+  .solution h3 {
+    font-size: 20px;
+  }
+
+  .solution p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1023px) {
+  form {
+    max-width: 345px;
+  }
+
+  .rectangle-1 {
+    max-width: 485px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 12px;
+  }
+
+  .solution h3 {
+    font-size: 20px;
+  }
+
+  .solution p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 990px) {
+  .left-panel h1 {
+    font-size: 30px;
+  }
+
+  form {
+    max-width: 275px;
+  }
+
+  .rectangle-1 {
+    max-width: 390px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 11px;
+  }
+
+  .solution h3 {
+    font-size: 18px;
+  }
+
+  .solution p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 755px) and (max-width: 809px) {
+  .left-panel h1 {
+    font-size: 28px;
+  }
+
+  form {
+    max-width: 260px;
+  }
+
+  .rectangle-1 {
+    max-width: 375px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 11px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 10px;
+  }
+
+  .solution h3 {
+    font-size: 15px;
+  }
+
+  .solution p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 754px) {
+  .left-panel h1 {
+    font-size: 25px;
+  }
+
+  .left-panel .active p {
+    font-size: 13px;
+  }
+
+  .forgot-password button {
+    font-size: 13px;
+  }
+
+  form {
+    max-width: 285px;
+  }
+
+  .rectangle-1 {
+    max-width: 290px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 11px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 10px;
+  }
+
+  .solution h3 {
+    font-size: 13px;
+  }
+
+  .solution p {
+    font-size: 11px;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .left-panel h1 {
+    font-size: 25px;
+  }
+
+  .left-panel .active p {
+    font-size: 13px;
+  }
+
+  .forgot-password button {
+    font-size: 13px;
+  }
+
+  form {
+    max-width: 270px;
+  }
+
+  .rectangle-1 {
+    max-width: 265px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 11px;
+  }
+
+  .left-panel .active .rights p {
+    font-size: 10px;
+  }
+
+  .solution h3 {
+    font-size: 11px;
+  }
+
+  .solution p {
+    font-size: 9px
+    ;
+  }
+}
+
+
+
+
+
+@media (max-width: 575px) {
+  .right-panel {
+    min-height: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
